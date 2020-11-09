@@ -1,0 +1,22 @@
+{
+  "name": "fastify-ts-apirest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index",
+    "dev": "nodemon dist/index",
+    "clean": "rimraf dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.6",
+    "rimraf": "^3.0.2"
+  }
+}
